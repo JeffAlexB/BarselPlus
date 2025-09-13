@@ -49,7 +49,7 @@ Other: Docker (WIP), JUnit/MockMvc
 
 ## ERD
 
-![alt "ERD image"](https://github.com/JeffAlexB/BarselPlus/DocumentationImages/BarselPluss_ERD.png)
+![alt "ERD image"](https://github.com/JeffAlexB/BarselPlus/blob/main/Technical/BarselPluss_ERD.png)
 
 ---
 
