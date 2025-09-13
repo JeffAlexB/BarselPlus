@@ -9,7 +9,7 @@ allow some latitude to get a functioning DB up to support the app and its critic
 </p>
 
 ![alt "ERD image"]
-(https://github.com/JeffAlexB/BarselPlus/tree/main/TechnicalBarselPluss_ERD.png)
+(https://github.com/JeffAlexB/BarselPlus/blob/main/Technical/BarselPluss_ERD.png)
 
 ```
 // Use DBML to define your database structure
