@@ -6,13 +6,12 @@ BarselPlus is a healthcare application designed to replace the analog paper book
 ---
 
 ## Overview
-Goal: Replace paper-based pregnancy journals with a secure, digital solution.<br />
-Users: Patients, co-parents<br />
+Goal: Replace paper-based pregnancy journals with a secure, digital prototype.
+Users: Patients, co-parents
 Core Features:
- - Patient & partner profiles
- - Pregnancy tracking (visits, labs, symphysis-fundus, medical history)
- - Role-based access for patients and providers
- - Integration tests for data validation and persistence
+- Patient & partner profiles
+- Pregnancy tracking (visits, labs, symphysis-fundus, medical history)
+- Integration tests for data validation and persistence
 
 ---
 
@@ -28,7 +27,7 @@ Other: Docker (WIP), JUnit/MockMvc
  - Uses: Spring Boot + PostgreSQL (REST API, services, DTO mappers, security).
 
 <a href="https://github.com/JeffAlexB/barselplus-frontend">BarselPlus-Frontend</a>
- - Uses: Angular, TailwindCSS. 
+ - Uses: Angular, TailwindCSS.
 
 <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Docs & FAQs</a>
  - Documents: Architecture, database schema, API design, roadmap, QA/testing, regulatory notes.
@@ -36,14 +35,15 @@ Other: Docker (WIP), JUnit/MockMvc
 ---
 
 ## Documentation Index
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Scope Statement</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">LEAN Canvas</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Architecture & Tech Stack</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Database Schema</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">API Docs</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Roadmap</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Testing Strategy & QA</a>
- - <a href="https://github.com/JeffAlexB/BarselPlus/Documentation/README.md">Privacy & Security Policy</a>
+ - <a href="./Product/Scope_statement.md">Scope Statement</a>
+ - <a href="./Product/LEAN_canvas.md">LEAN Canvas</a>
+ - <a href="./Technical/Architecture.md">Architecture</a>
+ - <a href="./Technical/Techstack.md">Tech Stack</a>
+ - <a href="./Technical/DB_schema.md">Database Schema</a>
+ - <a href="./Technical/API_docs.md">API Docs</a>
+ - <a href="./DevProcess/SRS_Lite.md">SRS (lite) </a>
+ - <a href="./DevProcess/Test_QA.md">Testing Strategy & QA</a>
+ - <a href="./Design/Wireframes_UI.md">UI & Wireframes</a>
 
 ---
 
@@ -54,8 +54,7 @@ Other: Docker (WIP), JUnit/MockMvc
 ---
 
 ## Roadmap
-- [ ] Finalize backend DTO mappers and integration tests
-- [ ] Expand role-based security (patients, midwives, doctors)
+- [ ] Finalize backend DTO mappers and integration test
 - [ ] Spin up Angular frontend to replace prototype HTMX views
 - [ ] CI/CD pipelines for backend & frontend
 - [ ] Polish documentation (update diagrams, wireframes)
