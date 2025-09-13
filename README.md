@@ -36,12 +36,12 @@ Other: Docker (WIP), JUnit/MockMvc
 
 ## Documentation Index
  - <a href="./Product/Scope_statement.md">Scope Statement</a>
- - <a href="./Product/LEAN_canvas.md">LEAN Canvas</a>
+ - <a href="./Product/LEANcanvas.md">LEAN Canvas</a>
  - <a href="./Technical/Architecture.md">Architecture</a>
  - <a href="./Technical/Techstack.md">Tech Stack</a>
  - <a href="./Technical/DB_schema.md">Database Schema</a>
  - <a href="./Technical/API_docs.md">API Docs</a>
- - <a href="./DevProcess/SRS_Lite.md">SRS (lite) </a>
+ - <a href="./DevProcess/SRS_lite.md">SRS (lite) </a>
  - <a href="./DevProcess/Test_QA.md">Testing Strategy & QA</a>
  - <a href="./Design/Wireframes_UI.md">UI & Wireframes</a>
 
