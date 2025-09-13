@@ -28,6 +28,16 @@ without implementing role-based access or production-level security.
 
 ---
 
+## Coding Conventions
+- Controllers: thin, REST endpoints under `/api/**`
+- Services: business logic, stateless
+- Repositories: Spring Data JPA
+- DTOs: all API contracts (no entities exposed)
+- Validation: Bean Validation on DTOs
+- Tests: JUnit + MockMvc for REST, @DataJpaTest for repos
+
+---
+
 ## Component Diagram (Conceptual)
 ```
 text
