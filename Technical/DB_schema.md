@@ -8,8 +8,7 @@ enable hardcoding the data. There's probably better ways to set up the tables, b
 allow some latitude to get a functioning DB up to support the app and its critical data functions.
 </p>
 
-![alt "ERD image"]
-(https://github.com/JeffAlexB/BarselPlus/blob/main/Technical/BarselPluss_ERD.png)
+![alt "ERD image"](https://github.com/JeffAlexB/BarselPlus/blob/main/Technical/BarselPluss_ERD.png)
 
 ```
 // Use DBML to define your database structure
